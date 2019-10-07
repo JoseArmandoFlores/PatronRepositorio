@@ -60,7 +60,7 @@ namespace PatronRepositorio.UI.Registros
         {
             IDNumericUpDown.Value = empleado.EmpleadoId;
             FechaDateTimePicker.Value = empleado.Fecha;
-            NombresTextBox.Text = empleado.Nombres;
+            //NombresTextBox.Text = empleado.Nombres;
             ApellidosTextBox.Text = empleado.Apellidos;
             DireccionTextBox.Text = empleado.Direccion;
             TelefonoMaskedTextBox.Text = empleado.Telefono;
